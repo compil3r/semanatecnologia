@@ -2484,6 +2484,9 @@ input, select, textarea {
 		color: #fff;
 	}
 
+		#footer img {
+			max-width: 100%;
+		}
 		#footer .icon.circled {
 			background: #fff;
 			color: #2b252c;
@@ -2900,7 +2903,7 @@ input, select, textarea {
 				-webkit-transition: -webkit-transform 0.5s ease;
 				-ms-transition: -ms-transform 0.5s ease;
 				transition: transform 0.5s ease;
-				display: block;
+				display: none;
 				height: 44px;
 				left: 0;
 				position: fixed;
