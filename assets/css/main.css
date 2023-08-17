@@ -1988,6 +1988,7 @@ input, select, textarea {
 		margin-left: 10px;
 		margin-right: 10px;
 		transition: 0.5s;
+		text-align: center;
 	}
 	form textarea {
 		min-height: 9em;
@@ -3176,4 +3177,21 @@ input, select, textarea {
 
 	#features article p {
 		text-align: center;
+	}
+
+	.btn-link {
+		background-color: #f6d6ce;
+padding: 10px 20px;
+border-radius: 20px;
+margin-top: 40px;
+font-weight: 700;
+	}
+
+	.btn-oficina {
+		background-color: #5666aa;
+		padding: 10px 20px;
+		border-radius: 20px;
+		margin-top: 40px;
+		font-weight: 700;
+		color: white;
 	}
