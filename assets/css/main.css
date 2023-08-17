@@ -3069,9 +3069,11 @@ input, select, textarea {
 
 			.wrapper {
 				padding-left: 3em;
+				padding-top: 0;
 				padding-right: 2em;
 			}
 
+			
 		/* Header */
 
 			#header {
@@ -3194,4 +3196,12 @@ font-weight: 700;
 		margin-top: 40px;
 		font-weight: 700;
 		color: white;
+	}
+
+	@media screen and (max-width: 340px) {
+		.btn-link {
+			display: block;
+			margin-top: 6px;
+		}
+
 	}
